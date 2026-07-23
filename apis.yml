@@ -1,8 +1,13 @@
 aid: air-protein
 name: Air Protein
-description: 'Air Protein is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: frontier-tech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Air Protein is a Bay Area food-technology company producing a nutrient-dense,
+  meat-alternative protein made from elements found in the air. Its carbon-conversion
+  fermentation process — derived from NASA closed-loop life-support research — combines
+  carbon dioxide, oxygen, nitrogen, water and renewable energy with hydrogenotrophic
+  microbes to grow a protein flour, which it then transforms into whole-food "air meat"
+  products. Founded by CEO Dr. Lisa Dyson, the company aims to decouple protein production
+  from land and animal agriculture. Added to the API Evangelist network as a portfolio
+  company of GV; it publishes a marketing site but no developer API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/air-protein/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,30 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://d172nc0scfm542.cloudfront.net/social/airprotein.jpeg
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
 - Frontier Tech
+- Food Technology
+- Alternative Protein
+- Fermentation
+- Carbon Conversion
+- Climate Tech
+- Sustainability
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +47,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://airprotein.com
+  url: https://www.airprotein.com
+- type: FAQ
+  url: https://www.airprotein.com/faq
+- type: Support
+  url: https://www.airprotein.com/contact-us
+- type: Press
+  url: https://www.airprotein.com/press-and-media
+- type: PrivacyPolicy
+  url: https://www.airprotein.com/privacy
+- type: TermsOfService
+  url: https://www.airprotein.com/terms
+- type: LinkedIn
+  url: https://www.linkedin.com/company/air-protein
+- type: DomainSecurity
+  url: security/air-protein-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
