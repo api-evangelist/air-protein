@@ -9,6 +9,9 @@ description: 'Air Protein is a Bay Area food-technology company producing a nutr
   from land and animal agriculture. Added to the API Evangelist network as a portfolio
   company of GV; it publishes a marketing site but no developer API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/air-protein/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Added to the API Evangelist network as a portfolio company of GV; it publishes a marketing site but no developer API surface."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
