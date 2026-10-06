@@ -43,7 +43,7 @@ accessModel:
 image: https://d172nc0scfm542.cloudfront.net/social/airprotein.jpeg
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-10-06'
 tags:
 - Company
 - Frontier Tech
@@ -60,6 +60,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://www.airprotein.com/blog/
+  type: Blog
 - type: Website
   url: https://www.airprotein.com
 - type: FAQ
